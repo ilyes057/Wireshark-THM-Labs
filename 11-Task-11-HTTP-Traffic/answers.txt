@@ -1,0 +1,8 @@
+# Task 11 - HTTP Traffic Answers
+
+1. Percentage of DNS packets: 4.7
+2. Suspicious endpoint: 145.254.160.237
+3. User-Agent (Packet 4): Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6) Gecko/20040113
+4. Full URI (Packet 18): http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-2309191948673629&random=1084443430285&lmt=1082467020&format=468x60_as&output=html&url=http://www.ether.eal.com/.download.html&.color_bg=F_FFFFF&color_tex_t=333333&color_li_nk=000000&color_u_rl=666633&color__border=666633
+5. Domain (Packet 38): www.ethereal.com
+6. Full URI (Packet 38): http://www.ethereal.com/download.html
