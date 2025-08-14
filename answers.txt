@@ -1,0 +1,5 @@
+# Réponses Task 7 - ARP Traffic
+Question 1: Request (1)
+Question 2: 80:fb:06:f0:45:d7
+Question 3: 76,400,459,520
+Question 4: 10.251.23.1
