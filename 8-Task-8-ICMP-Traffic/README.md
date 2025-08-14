@@ -3,28 +3,28 @@
 ## 🔍 Analyse des Paquets ICMP
 
 ### 📌 Paquet 4 (Requête ICMP - Type 8)
-![Requête ICMP Type 8](8-Task-8-ICMP-Traffic/screenshots/question-1.png)  
+![Requête ICMP Type 8](screenshots/question-1.png)  
 - **Type** : 8 (Requête ICMP)  
 - **Signification** : Ping (echo request) envoyé à un serveur  
 - **Analyse** :  
   Paquet standard d'une requête ping, attend une réponse (Type=0).  
 
 ### 📌 Paquet 5 (Réponse ICMP - Type 0)
-![Réponse ICMP Type 0](8-Task-8-ICMP-Traffic/screenshots/question-2.png)  
+![Réponse ICMP Type 0](screenshots/question-2.PNG)  
 - **Type** : 0 (Réponse ICMP)  
 - **Signification** : Réponse à un ping (echo reply)  
 - **Analyse** :  
   Confirme que le serveur a bien répondu à la requête.  
 
 ### 📌 Paquet 12 (Timestamp)
-![Timestamp ICMP](8-Task-8-ICMP-Traffic/screenshots/question-3.png)  
+![Timestamp ICMP](screenshots/question-3.PNG)  
 - **Date** : May 30, 2013  
 - **Format** : Timestamp UNIX converti  
 - **Utilité** :  
   Permet de détecter des anomalies temporelles (ex: délais anormaux).  
 
 ### 📌 Paquet 18 (Data String)
-![Data ICMP](8-Task-8-ICMP-Traffic/screenshots/question-4.png)  
+![Data ICMP](screenshots/question-4.PNG)  
 - **Payload** : `08090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637`  
 - **Format** : Hexadécimal  
 - **Analyse** :  
