@@ -1,0 +1,4 @@
+# Réponses Task 10 - DNS Traffic
+Q1: 8.8.8.8.in-addr.arpa
+Q2: www.wireshark.org
+Q3: 0x2c58

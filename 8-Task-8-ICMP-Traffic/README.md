@@ -31,5 +31,5 @@
   Données aléatoires typiques d'un ping standard.  
 
 ## 📚 Fichiers Inclus
-- [Capture complète](captures/task8.pcap)  
+- [Capture complète](captures/dns+icmp_1602452102220.pcapng)  
 - [Réponses THM](answers.txt)  
