@@ -1,0 +1,5 @@
+# Réponses Task 8 - ICMP Traffic
+Question 1: 8
+Question 2: 0
+Question 3: May 30, 2013
+Question 4: 08090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637

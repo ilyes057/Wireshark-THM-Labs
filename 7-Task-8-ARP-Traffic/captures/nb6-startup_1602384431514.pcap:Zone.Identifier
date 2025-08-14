@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://tryhackme.com/
+HostUrl=https://tryhackme-vm-upload.s3.eu-west-1.amazonaws.com/nb6-startup_1602384431514.pcap?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2YR2KKQMWLXEMXW4%2F20250814%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20250814T042631Z&X-Amz-Expires=120&X-Amz-Signature=1d4ab3457fadbca607e731a48321722dd218bb122693cc55545b86e5039c7f66&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
