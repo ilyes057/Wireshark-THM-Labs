@@ -1,26 +1,28 @@
 # 📡 Task 8 - Analyse ICMP (Wireshark 101)
 
-## 🎯 Concepts Clés
-- **Requêtes ICMP** (`Type=8`) vs **Réponses** (`Type=0`)
-- **Timestamps** : Détection d'anomalies temporelles
-- **Data Strings** : Analyse du contenu des paquets
+## 🔍 Analyse des Paquets ICMP
 
-## 🔎 Méthodologie
-1. **Filtre Wireshark** : `icmp`
-2. **Identification** :
-   - Paquets suspects (ex: flood ICMP)
-   - Timestamps incohérents
-3. **Outils** : 
-   - Statistiques → Flow Graph (pour visualiser les échanges)
+### 📌 Paquet 5 (Réponse ICMP - Type 0)
+![Réponse ICMP Type 0](screenshots/question-2.png)  
+- **Type** : 0 (Réponse ICMP)
+- **Signification** : Réponse à un ping (echo reply)
+- **Analyse** :  
+  Ce paquet confirme que le serveur a bien répondu à la requête ping.
 
-## 📸 Preuves
-| Question | Screenshot | Analyse |
-|----------|------------|---------|
-| Q1 (Type=8) | ![Type 8](screenshots/question-1.png) | Requête ping classique |
-| Q2 (Type=0) | ![Type 0](screenshots/question-2.png) | Réponse du serveur |
-| Q3 (Timestamp) | ![Timestamp](screenshots/question-3.png) | Date formatée |
-| Q4 (Data) | ![Data](screenshots/question-4.png) | Hexdump du payload |
+### 📌 Paquet 12 (Timestamp)
+![Timestamp ICMP](screenshots/question-3.png)  
+- **Date** : May 30, 2013  
+- **Format** : Timestamp UNIX converti  
+- **Utilité** :  
+  Permet de détecter des anomalies temporelles (ex: délais anormaux).
 
-## 📁 Fichiers
-- [Capture PCAP](captures/task8.pcap)
+### 📌 Paquet 18 (Data String)
+![Data ICMP](screenshots/question-4.png)  
+- **Payload** : `08090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637`  
+- **Format** : Hexadécimal  
+- **Analyse** :  
+  Données aléatoires typiques d'un ping standard.
+
+## 📚 Fichiers Inclus
+- [Capture complète](captures/task8.pcap)
 - [Réponses THM](answers.txt)
