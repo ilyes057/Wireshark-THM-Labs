@@ -1,0 +1,5 @@
+# Task 11 - HTTP Traffic Answers
+
+1. The full request URI for packet 31: https://localhost/icons/apache_pb.png
+2. The full request URI for packet 50: https://localhost/icons/back.gif
+3. The User-Agent listed in packet 50: Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.8.0.2) Gecko/20060308 Firefox/1.5.0.2\r\n
